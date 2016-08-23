@@ -1,5 +1,6 @@
 $green: #1dde85
 $black: #515152
+$forns-color: #f8f5ee
 $width-in: 1170px
 
 
@@ -36,6 +37,7 @@ $width-in: 1170px
         a:hover
           color: $green
 
+
   .banner
     background: #1a1a1a
     display: flex
@@ -47,6 +49,7 @@ $width-in: 1170px
       h1
         font-size: 48px
         margin-bottom: 50px
+
   .services
     max-width: $width-in
     margin: auto
@@ -85,3 +88,53 @@ $width-in: 1170px
           margin-top: 20px
           display: block
           transition: all 0.3s
+
+  .chose-ord
+    background: #9a9a9a
+    width: 100%
+    overflow: hidden
+    text-align: center
+    h2
+      font-size: 30px
+      margin: 24px 0
+      text-transform: uppercase
+      color: $forns-color
+    .ord-send
+      max-width: 894px
+      width: 100%
+      margin: auto
+      display: flex
+      justify-content: space-between
+      flex-flow: row wrap
+      input
+        max-width: 438px
+        border: 1px solid #d0d0d0
+        background: #9a9a9a
+        font-style: italic
+        font-weight: bolder
+        width: 100%
+        color: $forns-color
+        height: 48px
+        display: flex
+        align-items: center
+        margin-bottom: 25px
+      textarea
+        width: 100%
+        background: #9a9a9a
+        padding-top: 20px
+        color: $forns-color
+        font-style: italic
+        font-weight: bolder
+        border: 1px solid #d0d0d0
+      .send-but
+        display: block
+        margin: 30px auto 40px
+        width: 195px
+        background: $green
+        color: $forns-color
+        text-align: center
+        padding: 15px
+        border: 1px solid $green
+        border-radius: 2px
+        cursor: pointer
+

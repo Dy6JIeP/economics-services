@@ -109,3 +109,65 @@
           display: block;
           -webkit-transition: all 0.3s;
                   transition: all 0.3s; }
+  .main .chose-ord {
+    background: #9a9a9a;
+    width: 100%;
+    overflow: hidden;
+    text-align: center; }
+    .main .chose-ord h2 {
+      font-size: 30px;
+      margin: 24px 0;
+      text-transform: uppercase;
+      color: #f8f5ee; }
+    .main .chose-ord .ord-send {
+      max-width: 894px;
+      width: 100%;
+      margin: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; }
+      .main .chose-ord .ord-send input {
+        max-width: 438px;
+        border: 1px solid #d0d0d0;
+        background: #9a9a9a;
+        font-style: italic;
+        font-weight: bolder;
+        width: 100%;
+        color: #f8f5ee;
+        height: 48px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 25px; }
+      .main .chose-ord .ord-send textarea {
+        width: 100%;
+        background: #9a9a9a;
+        padding-top: 20px;
+        color: #f8f5ee;
+        font-style: italic;
+        font-weight: bolder;
+        border: 1px solid #d0d0d0; }
+      .main .chose-ord .ord-send .send-but {
+        display: block;
+        margin: 30px auto 40px;
+        width: 195px;
+        background: #1dde85;
+        color: #f8f5ee;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #1dde85;
+        border-radius: 2px;
+        cursor: pointer; }
