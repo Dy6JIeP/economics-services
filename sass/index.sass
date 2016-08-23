@@ -1,4 +1,6 @@
 $green: #1dde85
+$black: #515152
+$width-in: 1170px
 
 
 
@@ -34,9 +36,52 @@ $green: #1dde85
         a:hover
           color: $green
 
-
-
-
-
-
-
+  .banner
+    background: #1a1a1a
+    display: flex
+    align-items: center
+    text-align: center
+    .slide
+      margin: 200px 0
+      color: #FFFFFF
+      h1
+        font-size: 48px
+        margin-bottom: 50px
+  .services
+    max-width: $width-in
+    margin: auto
+    text-align: center
+    h2
+      font-size: 30px
+      color: $black
+      width: 100%
+      margin: 120px 0 60px
+    .services-element
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      margin-top: 85px
+      color: $black
+      li:hover
+        border: 1px solid $green
+        transition: border 0.3s
+      li:hover a
+        color: $green
+        transition: all 0.3s
+      li
+        width: 358px
+        border: 1px solid #c3c1bf
+        margin-bottom: 48px
+        padding: 20px 0
+        transition: border 0.3s
+        p
+          margin: 20px 10px 0
+          text-align: justify
+        a
+          font-size: 24px
+          text-decoration: none
+          font-weight: bold
+          color: $black
+          margin-top: 20px
+          display: block
+          transition: all 0.3s
