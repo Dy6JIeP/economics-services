@@ -8,9 +8,11 @@
 
 
 $green: #1dde85
-$black: #515152
+$black-board: #515152
+$black: #1a1a1a
 $forns-color: #f8f5ee
-$width-in: 1170px
+$footer-link-color: #636264
+$width-1170: 1170px
 
 
 body
@@ -21,3 +23,71 @@ body
   @import "consultation"
   @import "economics-expertize"
   @import "index"
+
+
+  footer
+    width: 100%
+    background: $black
+    display: flex
+    justify-content: center
+    .foot-cont
+      max-width: $width-1170
+      width: 100%
+      display: flex
+      justify-content: space-between
+      margin: 40px 0 140px
+      ul
+        max-width: 320px
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        li:nth-child(1), li:nth-child(1) a
+          color: $forns-color
+          font-weight: bold
+          font-size: 16px
+          margin-bottom: 20px
+        li
+          width: 100%
+          margin-bottom: 10px
+          a
+            text-decoration: none
+            color: $footer-link-color
+      ul:nth-child(3) li:nth-child(2),ul:nth-child(3) li:nth-child(3)
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        font-size: 30px
+        a:hover
+          color: $green
+        label
+          width: 100%
+          font-size: 16px
+          color: $forns-color
+          margin: 10px 0
+          font-weight: bold
+        input
+          border: 1px solid $forns-color
+          border-radius: 2px
+          background: #9a9a9a
+          font-style: italic
+          font-weight: bolder
+          width: 100%
+          color: $forns-color
+          padding: 10px 0
+        input:focus
+          border: 1px solid $green
+
+  .copyright
+    display: flex
+    justify-content: center
+    background: $black-board
+    color: $forns-color
+    .copy-cont
+      width: $width-1170
+      margin: 10px 0
+
+
+
+
+
+
